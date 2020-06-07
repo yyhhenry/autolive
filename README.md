@@ -1,6 +1,10 @@
 # autolive
 生草机：一键生成live2D的迫害神器
 
+[效果体验view.html](https://yyhhenry.github.io/autolive/view.html)
+
+[修改设置index.html](https://yyhhenry.github.io/autolive/index.html)
+
 
 支持时下较新的Chrome/QQ浏览器等主流浏览器，不支持IE一类的浏览器
 
@@ -10,7 +14,7 @@ index.html中设置图片URL(即图片的网址)，正确设置时图片会出�
 
 完成设置：单击保存设置，并转到view.html。
 
-view.html:延续上次设置进行播放，如果不需要修改设置，直接点它就行了。
+view.html:延续上次设置进行播放，如果不需要修改设置，直接用它就行了。
 
 清理浏览器缓存可能导致设置丢失（但是这么简单的设置再输入一遍就好了啦）
 

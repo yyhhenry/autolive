@@ -25,7 +25,7 @@ window.onload=function(){
 	window.onmousemove=function(event){
 		mouse={x:event.pageX,y:event.pageY};
 	}
-	window.onmousedown=function(event){
+	window.onclick=function(event){
 		mouse={x:event.pageX,y:event.pageY};
 	}
 	graph.onload=function(){

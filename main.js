@@ -1,7 +1,7 @@
 window.onload=function(){
 	let graph=new Image();
 	let pk=16;
-	if(location.search.indexOf('tab')!=-1){console.log('under  test');pk=64;}
+	if(location.search.indexOf('tab')!=-1){alert('您在使用未经严密测试的模块');pk=64;}
 	let setting={
 		imgurl:'./whole.png',
 		mouth:{x:225,y:300},

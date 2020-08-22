@@ -1,7 +1,7 @@
 window.onload=function(){
 	let graph=new Image();
 	let pk=16;
-	if(location.search.getIndexOf('tab')!=-1)pk=32;
+	if(location.search.indexOf('tab')!=-1)pk=32;
 	let setting={
 		imgurl:'./whole.png',
 		mouth:{x:225,y:300},

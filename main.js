@@ -25,6 +25,9 @@ window.onload=function(){
 	window.onmousemove=function(event){
 		mouse={x:event.pageX,y:event.pageY};
 	}
+	window.onmousedown=function(event){
+		mouse={x:event.pageX,y:event.pageY};
+	}
 	graph.onload=function(){
 		let xw=Math.floor((graph.width+pk-1)/pk);
 		let xh=Math.floor((graph.height+pk-1)/pk);
